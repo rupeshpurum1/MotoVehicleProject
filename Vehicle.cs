@@ -8,11 +8,11 @@ namespace MotoVehicleProject
 {
     public class Vehicle
     {
-        string make;
-        string type;
-        string color;
-        int speed;
-        string madeIn;
+        public string make;
+        public string type;
+        public string color;
+        public int speed;
+        public string madeIn;
 
         public Vehicle() 
         {
@@ -22,11 +22,14 @@ namespace MotoVehicleProject
         //actionable item
         public void stopVehicle()
         {
-            this.speed = 0;
+            this.speed = 10;
             
         }
 
-    }
 
     }
+
+}
+
+
 
